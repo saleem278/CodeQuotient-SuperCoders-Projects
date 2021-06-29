@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+        width: 100vw;
+        height:100vh;
+        border: 2px solid;
+        }
+.container>div>div{
+            width:12.5vw; 
+            height:12.5vh;
+            display:inline-block;
+}
+
+.container>div:nth-child(even)>div:nth-child(odd),
+.container>div:nth-child(odd)>div:nth-child(even)
+{
+    background-color:black;
+}

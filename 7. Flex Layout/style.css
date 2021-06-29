@@ -1,0 +1,97 @@
+body
+{
+    margin: 10px;
+    font-size: 260%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.container
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+#row1
+{
+    width: 100%;
+    display: flex;
+    height: 15vh;
+    align-self: flex-start;
+    margin-bottom:5px;
+}
+.boxA,.boxB,.boxC,.boxD
+{
+    width: 25%;
+    border: 2px solid #0a25f7;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+ .row2
+{
+    height:25vh;
+    border:2px solid #A529AE;
+    display:flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.row3
+{
+    display: flex;
+    height: 54vh;
+}
+.section1
+{
+    border: 2px solid #A529AE;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-right:5px;
+    justify-content: center;
+    align-items: center;
+}
+.section2
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.part1
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-bottom: 7px;
+    flex-direction: row;
+}
+.part2
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.box3,.box4
+{
+    height: 100%;
+    width: 50%;
+    display: flex; 
+    border: 2px solid #A529AE;
+    justify-content: center;
+    align-items: center;
+}
+.box5,.box6
+{
+    height: 100%;
+    width: 50%;
+    display: flex; 
+    border: 2px solid #A529AE;
+    justify-content: center;
+    align-items: center;
+}
+.box6,.box4
+{
+    margin-left: 5px;
+}

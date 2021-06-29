@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="#" class="form">        
+            <div>
+                <h1>CodeQuotient Survey Form</h1>
+                <p>Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <div>
+                <label>Name</label>
+                <input type="text" placeholder="Enter your Name" required />
+            </div>
+
+            <div>            
+                <label>Email</label>
+                <input type="email" placeholder="Enter your Email" required />
+            </div>
+            <div>
+                <label>Age(optional)</label>
+                <input type="number" placeholder="Age" required />
+            </div>
+            <div>
+                <label>Which option best describes your current role?</label>
+                <select required>
+                    <option>Select current role</option>
+                    <option>Employee</option>
+                    <option>Student</option>
+                    <option>Teacher</option>
+                </select>
+            </div>
+            <div> 
+                <label>Would you recommend CodeQuotient to a friend?</label>
+                <label class="interested"><input type="radio" name="recommend" required/>   Definitely</label>
+                <label class="interested"><input type="radio" name="recommend" required/>   Maybe</label>
+                <label class="interested"><input type="radio" name="recommend" required/>   Not Sure</label>
+            </div>
+            <div>
+                <label>In which courses you are interested</label>
+                <label class="interested"><input type="checkbox">   Data Structure</label>
+                <label class="interested"><input type="checkbox">   Cloud Computing</label>
+                <label class="interested"><input type="checkbox">   Machine Learning</label>
+            </div>
+            <div>
+                <label>Any comments or suggestions?</label><br/>
+                <textArea placeholder="Enter your comment here.."></textArea>
+            </div>
+            <div>
+                <input type="submit" class="submit" value="Submit">
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
