@@ -1,4 +1,6 @@
-Build a Resume Webpage and fulfill the below User stories.
+**Build a Resume Webpage**
+
+fulfill the below User stories.
 
 **User story 1** : Your resume webpage should have a Title.
 
