@@ -98,3 +98,6 @@ You have a variable bill
  	"Total Amount" : ""
 }
 ```
+
+Output:
+**```https://calculatebill-3p34g844jekhdey4ca-3p34g844jekhdey4dx.web.codequotient.com```**
