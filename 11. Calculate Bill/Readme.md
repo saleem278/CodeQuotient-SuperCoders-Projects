@@ -3,20 +3,17 @@ You've 2 arrays of objects ( Items and Categories)
 
 Find Below the structure of Items
 
-[{  	id : "item1",
-        itemName : "Butter Roti",
-        rate : 20,
-        taxes : [
-            {
-                name : "Service Charge",
-                rate : 10,
-                isInPercent : 'Y'
-            }
-        ],
-        category : {
-            categoryId : "C2"
-        }
-
+    [{  	id : "item1",
+    	        itemName : "Butter Roti",
+        	rate : 20,
+        	taxes : [{
+                	name : "Service Charge",
+                	rate : 10,
+                	isInPercent : 'Y'
+            		}],
+        	category : {
+            		categoryId : "C2"
+        	}
     }, {...}]
 
 
