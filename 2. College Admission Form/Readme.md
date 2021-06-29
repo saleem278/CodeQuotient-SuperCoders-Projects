@@ -24,8 +24,8 @@ User Story 10 : Add a submit button to submit the form.
 Create this assignment in Projects module and once you are done, submit the URL of your project link in answer field.
 
 Refer the below sample output
+![Admission Form](https://user-images.githubusercontent.com/61765706/123722091-46905680-d8a5-11eb-9024-e8100942dcb1.png)
 
 
-
-
+Output:
 https://collegeadmissionform-hnip7c5okgd181id.web.codequotient.com 
