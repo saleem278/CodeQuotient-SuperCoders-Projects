@@ -1,4 +1,4 @@
-Build a responsive navigation bar with the help of media query and fulfill the below User stories.
+**Build a responsive navigation bar with the help of media query**
 
 **User story 1** : Create a responsive nav bar with 5 menus and a logo.
 
@@ -19,4 +19,7 @@ Build a responsive navigation bar with the help of media query and fulfill the b
 ![responsive bar 3](https://user-images.githubusercontent.com/61765706/123722883-d84c9380-d8a6-11eb-8755-bb64036808da.png)
 
 **User story 7** : When you click on the cross icon, menu list should be close. and cross icon replaced by hamburger icon.
+
+Output:
+**```https://rnavigationbar-hnip75blkgr8mqxn.web.codequotient.com```**
 
