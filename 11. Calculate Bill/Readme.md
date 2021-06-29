@@ -50,52 +50,49 @@ You have a variable bill
 	]
     }
     
-Task 1: Create a function that returns JSON structure in the following format
 
-{
-  "id": "B1",
-  "billNumber": 1,
-  "opentime": "06 Nov 2020 14:19",
-  "customerName": "CodeQuotient",
-  "billItems": [
-    {
-      "id": "item2",
-      "name": "Paneer Butter Masala",
-      "quantity": 3,
-      
-    },
-    {...}
-  ]
-}
-Task 2: Create a function that returns JSON structure in the following format and calculate the total amount (include taxes & discount) to be paid.
+**Task 1: Create a function that returns JSON structure in the following format**
 
- {
- "id": "B1",
- "billNumber": 1,
- "opentime": "06 Nov 2020 14:19",
- "customerName": "CodeQuotient",
- "billItems": [
-  {
-   "id": "item2",
-   "name": "Paneer Butter Masala",
-   "quantity": 3,
-   "discount": {
-    "rate": 10,
-    "isInPercent": "Y"
-   },
-   "taxes": [
     {
-     "name": "Service Charge",
-     "rate": 10,
-     "isInPercent": "Y"
-    },
-    {...}
-   ],
-   "amount" : 123..,
-   "superCategoryName" : "",
-   "categoryName" : ""
-  },
-  {...}
- ],
- "Total Amount" : ""
+  	"id": "B1",
+  	"billNumber": 1,
+  	"opentime": "06 Nov 2020 14:19",
+  	"customerName": "CodeQuotient",
+  	"billItems": [
+    	{
+      		"id": "item2",
+      		"name": "Paneer Butter Masala",
+      		"quantity": 3,
+	}, {...}
+  	]
+   }
+
+**Task 2: Create a function that returns JSON structure in the following format and calculate the total amount (include taxes & discount) to be paid.**
+    {
+ 	"id": "B1",
+ 	"billNumber": 1,
+ 	"opentime": "06 Nov 2020 14:19",
+ 	"customerName": "CodeQuotient",
+ 	"billItems": [
+	{
+   		"id": "item2",
+   		"name": "Paneer Butter Masala",
+   		"quantity": 3,
+   		"discount": {
+    			"rate": 10,
+    			"isInPercent": "Y"
+   		},
+   		"taxes": [
+    		{
+     			"name": "Service Charge",
+			"rate": 10,
+     			"isInPercent": "Y"
+    		}, {...}
+   		],
+   	"amount" : 123..,
+   	"superCategoryName" : "",
+   	"categoryName" : ""
+  	}, {...}
+ 	],
+ 	"Total Amount" : ""
 }
