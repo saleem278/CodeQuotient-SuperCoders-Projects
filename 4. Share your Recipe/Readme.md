@@ -32,5 +32,5 @@ Refer the below sample output
   ![recipe](https://user-images.githubusercontent.com/61765706/123722408-f1a11000-d8a5-11eb-8c2e-a4634dd7f1bf.png)
 
 Output:
-```https://recipe-hnip7o7ukgk5qdi0.web.codequotient.com```
+**```https://recipe-hnip7o7ukgk5qdi0.web.codequotient.com```**
 
