@@ -68,8 +68,8 @@ You have a variable bill
    }
 
 **Task 2: Create a function that returns JSON structure in the following format and calculate the total amount (include taxes & discount) to be paid.**
-    {
- 	"id": "B1",
+```{
+     	"id": "B1",
  	"billNumber": 1,
  	"opentime": "06 Nov 2020 14:19",
  	"customerName": "CodeQuotient",
@@ -95,4 +95,4 @@ You have a variable bill
   	}, {...}
  	],
  	"Total Amount" : ""
-}
+}```
