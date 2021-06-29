@@ -21,7 +21,7 @@
 
 [11. Calculate Bill](https://calculatebill-3p34g844jekhdey4ca-3p34g844jekhdey4dx.web.codequotient.com)
 
-[12. Build a Quiz Module](https://basicquizmodule-3p34g84ur2khki1hma.web.codequotient.com)
+[12. Build a Quiz Module](https://quizmodule2-3p34g81d0gkqhhtxqt.web.codequotient.com)
 
 [13. Build a Pomodoro Clock](https://pomodoro-3p34g84us6khmstsmg.web.codequotient.com)
 
