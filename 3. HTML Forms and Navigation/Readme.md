@@ -1,4 +1,5 @@
 **Assignment - HTML Forms & Navigation**
+
 Build a basic Sign Up page and after sign up redirect to a gallery page
 
 **User story 1** : Refer the below screen shot to create a sign up form, where all the fields except Contact No. are mandatory.
