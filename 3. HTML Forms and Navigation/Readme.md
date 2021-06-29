@@ -18,4 +18,4 @@ Build a basic Sign Up page and after sign up redirect to a gallery page
 
 
 Output:
-```https://formsnnavigation-hnip7igkkgh98jpf.web.codequotient.com```
+**```https://formsnnavigation-hnip7igkkgh98jpf.web.codequotient.com```**
