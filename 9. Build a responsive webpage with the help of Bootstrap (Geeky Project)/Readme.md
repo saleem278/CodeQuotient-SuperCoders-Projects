@@ -14,9 +14,11 @@ https://beinggeeky-hnip75cdkgvvk6vt.web.codequotient.com
 ![responsive web](https://user-images.githubusercontent.com/61765706/123724508-17c8af00-d8aa-11eb-8815-5533f1e6d1fc.png)
 
 **Phone View with closed menu**
+
 ![responsive web 1](https://user-images.githubusercontent.com/61765706/123724516-1ac39f80-d8aa-11eb-854e-947072a7a667.png)
 
 **Phone View with open menu**
+
 ![responsive web 2](https://user-images.githubusercontent.com/61765706/123724523-1dbe9000-d8aa-11eb-9b93-711a7d1be252.png)
 
 
@@ -24,4 +26,5 @@ https://beinggeeky-hnip75cdkgvvk6vt.web.codequotient.com
 
 **User Story 5** : Your web page should be responsive for all the devices.
 
-
+Output:
+**```https://geekyproject-3p34g82eokh3fa3pf.web.codequotient.com```**
