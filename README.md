@@ -20,3 +20,11 @@
 [10. Chess Board](https://chessboard-hnip7ktike99amy6.web.codequotient.com)
 
 [11. Calculate Bill](https://calculatebill-3p34g844jekhdey4ca-3p34g844jekhdey4dx.web.codequotient.com)
+
+[12. Build a Quiz Module](https://basicquizmodule-3p34g84ur2khki1hma.web.codequotient.com)
+
+[13. Build a Pomodoro Clock](https://pomodoro-3p34g84us6khmstsmg.web.codequotient.com)
+
+[14. Compile Coding Question with API](https://14compilecodewithapi-3p34g884phkhr1x14g.web.codequotient.com)
+
+[15. Discussion App with DOM](https://discussionapp-3p34g884phkhrpkxn6.web.codequotient.com)
