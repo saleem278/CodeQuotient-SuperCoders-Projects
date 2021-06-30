@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<title>Code Compile Using API</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<body>
+		<div class="container">
+			<div class="uppergrid">
+				<h1>Test Your Code</h1>
+				<select name="lang" id="lang" onchange="getLangId()">
+                    <option name="c" value="7">C</option>
+                    <option name="cpp" value="77">CPP</option>
+                    <option name="java" value="8">Java</option>
+                    <option name="javascript" value="4">JavaScript</option>
+                    <option name="python" value="0">Python</option>
+                </select>
+			</div>
+			<div class="lowergrid">
+				<textarea rows="15" cols="30" id="ourcode" placeholder="Write Your code here..."></textarea>
+				<button id="compile" class="btn">Compile</button>
+				<div id="result">OUTPUT:</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+
+</html>
