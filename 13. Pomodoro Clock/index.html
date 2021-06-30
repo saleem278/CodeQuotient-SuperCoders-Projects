@@ -1,0 +1,51 @@
+<html>
+
+<head>
+	<title>Pomodoro</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="upper">
+			<label id="timer">00:00</label>
+		</div>
+		<div class="lower">
+			<div class="lower_header"><label id="current_title">Tap Start Button</label></div>
+			<hr />
+			<div class="time">
+				<div class="session">
+					<label>Session Time</label>
+					<p class="sessiontime">
+						<label id="session_time">40</label>
+						<label> Min</label>
+					</p>
+					<div class="session_buttons">
+						<button id="session_minus"> - </button>
+						<button id="session_plus"> + </button>
+					</div>
+				</div>
+				<div class="work">
+					<label>Break Time</label>
+					<p class="worktime">
+						<label id="break_time">20</label>
+						<label> Min</label>
+					</p>
+					<div class="break_buttons">
+						<button id="break_minus"> - </button>
+						<button id="break_plus"> + </button>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="buttons">
+					<button id="start">START</button>
+					<button id="pause">PAUSE</button>
+					<button id="reset">RESET</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+
+</html>

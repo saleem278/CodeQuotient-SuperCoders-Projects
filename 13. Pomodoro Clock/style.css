@@ -1,0 +1,115 @@
+
+body
+{
+    margin-top: 100px;
+    background: #D9B17D;
+    color: white;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 180px 280px;
+    height: 460px;
+    width: 220px;
+    padding: 12px;
+    margin: auto;
+    background: #493E33;
+    box-shadow: -1px 10px 11px 2px rgba(0,0,0,0.33);
+}
+.upper
+{
+    background: #493E33;
+    border: 10px solid grey;
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+    justify-items: center;
+}
+.lower
+{
+    background: #493E33;
+    display: grid;
+    grid-template-rows: 4fr 1fr 7fr 1fr 4fr;
+}
+.lower_header
+{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;    
+}
+.time
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.session
+{
+    display: grid;
+    justify-items: center;
+}
+.session>label,.work>label
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.work
+{
+    display: grid;
+    justify-items: center;
+}
+
+.sessiontime>label
+{
+    font-size: 20px;
+    color:#00A0B0;
+}
+.worktime>label
+{
+    font-size: 20px;
+    color:#EB6841;
+}
+.buttons
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+hr
+{ 
+  border :1px dotted;
+  width: 100%;
+}
+button
+{
+    color: white;
+    background: black;
+    border: none;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+.blocked
+{
+    background: rgb(175, 171, 171);
+}
+#pause{
+    display: none;
+}
+#start{
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+    .container
+    {
+        grid-template-rows: 4fr 7fr;
+        height: 90vh;
+        width: 50vw;
+    }
+    body
+    {
+        margin-top: 10px;
+    }
+}
