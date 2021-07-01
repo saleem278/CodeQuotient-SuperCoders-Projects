@@ -1,0 +1,818 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('../public/fonts/Avenir-Book.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../public/fonts/Avenir-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Book';
+  src: url('../public/fonts/Avenir-Book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Book';
+  src: url('../public/fonts/Avenir-BookOblique.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../public/fonts/Avenir-Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../public/fonts/Avenir-LightOblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+html,
+body {
+  font-family: "Avenir","san serif";
+  color: #333333;
+  min-height: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo_text_1 {
+  font-family: 'Changa';
+  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: -1px;
+}
+.logo_text_2 {
+  position: relative;
+  font-family: 'Changa One';
+  font-size: 27px;
+}
+
+.header-section nav {
+  padding: 15px 40px;
+}
+.header .logo_link {
+  color: #de6834;
+  text-decoration: none;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+nav .nav_link {
+  color: #333333;
+  font-size: 16.5px;
+}
+header {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  transition: all 0.5s ease;
+  box-shadow: none;
+  left: 0;
+}
+.login_link {
+  color: #707070;
+  text-decoration: none;
+}
+.vertical_divider {
+  height: 100%;
+  border-right: 2px solid rgb(151, 151, 151);
+}
+.navigation_ul_mobile{
+  background-color: #de6834;
+  padding: 5px;
+}
+
+.navigation_ul_mobile ul li span,.navigation_ul_mobile span{
+  color: white;
+  font-size: larger;
+  border-bottom: 1px solid white;
+}
+.navigation_ul_mobile ul li span:hover,.navigation_ul_mobile span:hover{
+  border-bottom: 7px solid white;
+}
+#navigation li span {
+  font-weight: 500;
+  opacity: 0.9;
+}
+.header_img{
+  position: relative;
+}
+
+.heading_one{
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.text_one{
+  font-size: 22px;
+  line-height: 37px;
+  font-family: 'Avenir Book';
+  font-weight: 400;
+}
+.text_one_2{
+  font-size: 19px;
+}
+.btn_custom{
+  color: white;
+  font-weight: 500;
+  background-color: #de6834;
+  border-color: #de6834;
+  padding: 14px 31px;
+  font-size: .9rem;
+}
+#statsSection{
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  font-size: 17px;
+  margin: 15px 0;
+  position: relative;
+  top:-70px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.bg_primary{
+  background-color: #de6834;
+  border-color: #de6834;
+}
+.image_custom{
+  border: none;
+  background-color: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+#program_structure{
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top: 0 !important;
+  position: relative;
+  top: -50px;
+  padding-bottom: 0 !important;
+}
+#program_coverage{
+  position: relative;
+  top:-50px
+}
+.section_heading_one{
+  font-family: 'Avenir';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+}
+.section_text{
+  font-family: 'Avenir Book';
+  font-size: 22px;
+  max-width: 75%;
+  margin: 0 auto;
+}
+#program_structure .orange_border_left{
+  border-left: 4px solid #de6834;
+}
+#program_structure .orange_border_right{
+  border-right: 4px solid #de6834;
+}
+#program_structure .item_img{
+  width: 90px;
+  height: 90px;
+}
+#program_structure .item_title{
+  font-size: 23px;
+  font-weight: 600;
+}
+#program_structure .item_details{
+  font-family: 'Avenir Book';
+  font-size: 17px;
+  line-height: 25px;
+}
+.horizontal_divider{
+  height: 2px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.divider_div{
+  top: -50px;
+  position: relative;
+}
+.box_item_title{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 55px;
+  color: white;
+}
+.box_item_details{
+  color: white;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 500;
+  max-width: 160px;
+}
+.heading_two{
+  font-size: 34px;
+}
+
+.projects-showcase-container{
+  padding: 1rem 3rem;
+}
+.projects-showcase-container .img_placeholder {
+  height: 150px;
+  width: 100%;
+  box-shadow: 0px 0px 12px 2px #00000029;
+}
+.projects-showcase-container .project_title {
+  font-family: 'Montserrat', sans-serif;
+  color: #DE6834;
+  font-weight: 500;
+  font-size: 17px;
+}
+.projects-showcase-container .project_details {
+  font-family: 'Hind', sans-serif;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 400;
+}
+.projects-showcase-container .img_placeholder img{
+  height: inherit;
+  border-radius: inherit;
+  width: inherit;
+}
+.projects-showcase-decription {
+  margin-bottom: 5.5rem !important;
+}
+.homepage-points-left-side {
+  padding-right: 1rem !important;
+  padding-left: 6rem !important;
+}
+
+.product_key_points {
+  font-size: 14px;
+  line-height: 18px;
+}
+#presentationSection .product_heading {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  display: block;
+  margin: auto;
+}
+#presentationSection .product_info {
+  font-size: 17px;
+  font-weight: 600;
+  max-width: 500px;
+  margin-top: 12px;
+  color: #DE6834;
+}
+#presentationSection .product_key_points {
+  font-size: 17px;
+  line-height: 30px;
+  font-family: 'Avenir Book';
+}
+
+#highlightSection > div {
+  padding-top: 4rem !important;
+  padding-bottom: 1rem !important;
+}
+.highlight-card-container {
+  background: #FFEEE5;
+  box-shadow: 0px 0px 4px #00000029;
+  border-radius: 5px;
+  padding: 7% 5%;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.highlight-card-container .highlight-logo img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 70px;
+}
+.highlight-description .text_one {
+  font-family: 'Avenir';
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 23px;
+  color: #DE6834;
+  font-weight: 500;
+}
+.highlight-description .text_two {
+  font-family: 'Avenir';
+  font-size: 17px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #DE6834;
+}
+#presentationSection{
+  position: relative;
+  top: -50px;
+}
+.heading_two{
+  font-size: 40px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 55px;
+}
+#presentationSection .image_custom {
+  box-shadow: 0px 0px 15px #00000029;
+  max-width: 100%;
+}
+#presentation-section .presentation_content {
+  padding-left: 10%;
+  padding-right: 6%;
+}
+.section_heading_one_1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+}
+#presentationsection .usp_title {
+  max-width: 300px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #DE6834;
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+}
+#presentationsection .usp_details {
+  font-size: 17px;
+  line-height: 30px;
+  font-family: 'Avenir Book';
+  letter-spacing: 1px;
+}
+#partnersSection .img_placeholder {
+  height: 100px;
+  width: 100px;
+}
+#partnersSection .img_placeholder img {
+  width: inherit;
+  height: inherit;
+}
+.fa{
+  font-size:30px ;
+}
+.banner-section{
+  text-align: center;
+}
+.social_link{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.img_placeholder_md{
+  height: 100px;
+  width: 100px;
+}
+/* ---------------------------------------------- */
+#application_process_section{
+  background-color: #de6834;
+  color: white;
+  padding-top:1.5rem !important ;
+  padding-bottom: 1.5rem !important;
+}
+
+.highlighted_heading{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 55px;
+}
+#application_process_section .application_process_content{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.step_title{
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.step_title .step_title_2{
+  width: 300px;
+}
+.step_description{
+  font-size: 17px;
+  line-height: 30px;
+  font-family: 'Avenir Book';
+}
+/* ------------------------------------------ */
+#batches-section{
+  padding-bottom: 4rem !important;
+}
+#batches-section table tbody td tr{
+  font-family: 'Avenir Book';
+  font-size: 17px;
+  line-height: 40px;
+}
+#batches-section table .table-active{
+  background-color: #f2f2f2;
+}
+#batches-section table .table-active td{
+  font-family: 'Avenir Book' !important;
+  font-weight: 600;
+}
+#batches-section .card-title{
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: 600;
+}
+#batches-section .batch_section{
+  font-size: 15px;
+  line-height: 40px;
+  font-family: 'Avenir Book';
+}
+#batches-section .program_price{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 75px;
+}
+
+.after_batches{
+  position: relative;
+  top: -50px;
+}
+/* ----------------------------------------- */
+#success-stories-section{
+  padding-bottom: 4.5rem !important;
+}
+.section_heading_two{
+  font-family: 'Avenir Book';
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 600;
+}
+.attestant_title{
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+.attestant_testimony{
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  line-break: anywhere;
+  font-style: italic;
+  color: #585858;
+}
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.attestant_name{
+  font-size: 17px;
+  font-weight: 500px;
+}
+.carousel_control{
+  color: #333333;
+  font-size: large;
+}
+#success-stories-section{
+  position: relative;
+  top: -60px;
+}
+
+/* ------------------------------------------------------------ */
+footer .logo_link{
+  color: #333333;
+  text-decoration: none;
+}
+.logo_text_part_one{
+  font-family: 'Changa',sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: -1.9px;
+}
+.logo_text_part_two{
+  position: relative;
+  left: -1px;
+  font-family: 'Changa One',cursive;
+  font-size: 27px;
+}
+.pull-right{
+  float: right;
+}
+footer .nav_link{
+  font-size: 10px;
+  color: #727272;
+  text-decoration: none;
+}
+.line_separator{
+  color: #727272;
+}
+footer{
+  background-color: #EFEFEF;
+}
+footer.container{
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+footer .logo_link.footer-logo {
+  right: 15%;
+}
+footer .logo_link.footer-logo span {
+  font-size: 68px;
+  color: #FFFFFF;
+  opacity: 23%;
+}
+.headerSectionmargin{
+  margin-left: 50px;
+  margin-bottom: 115px;
+}
+
+
+
+
+#topSection{
+  height: 100%;
+  padding: 5rem 1.5rem !important;
+}
+#topSection .heading{
+  font-size: 43px;
+  font-weight: 600px;
+}
+#topSection .subheading{
+  font-size: 22px;
+  font-family: 'Avenir Book';
+  font-weight: 400;
+}
+#presentationSection{
+  position: relative;
+  top: -20px;
+}
+section .heading{
+  font-size: 40px;
+  font-weight: 600;
+}
+section .subheading {
+  font-size: 22px;
+  font-family: 'Avenir Book';
+  font-weight: 400;
+}
+.companies-why-cq-responsive{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.border-right-companies{
+  position: relative;
+}
+#presentationSection .usp_number{
+  font-size: 80px;
+  line-height: 80px;
+  color: #DE6834;
+  font-weight: 800;
+}
+#presentationSection .usp_title{
+  font-size: 23px;
+  line-height: 30px;
+  color: #DE6834;
+  font-weight: 600;
+  width: 217px;
+}
+#presentationSection .usp_description{
+  font-size: 17px;
+  line-height: 30px;
+  color: #333333;
+  font-weight: 300;
+}
+.heading_six{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.uni-partners{
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+.how_procs_works{
+  margin-top: 100px !important;
+}
+.featured_user_name {
+  font-size: 17px;
+  font-weight: 500;
+}
+.featured_user_designation {
+  color: #585858;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+}
+#messageSection{
+  background-color: #DE6834;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+#messageSection .message{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#offerHelpSection .usp_heading {
+  max-width: 241px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #DE6834;
+  text-transform: uppercase;
+}
+#offerHelpSection .usp_description {
+  font-family: 'Avenir Book';
+  font-size: 17px;
+  line-height: 30px;
+}
+.text_two{
+  font-size: 17px;
+  line-height: 37px;
+  font-family: 'Avenir Book';
+}
+#contactSection{
+  color: white;
+  background-color: #DE6834;
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
+}
+#contactSection .contact_type {
+  font-size: 22px;
+  font-weight: 500;
+}
+#contactSection .contact_text {
+  font-size: 22px;
+  font-family: 'Avenir Book';
+}
+.img-thumbnail-3 {
+  max-width: 85%;
+}
+.svg-circle-container {
+  width: 60px;
+  margin-right: 10px !important;
+}
+.process_step_title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333333;
+}
+.process_step_description {
+  font-family: 'Avenir Book';
+  font-size: 17px;
+  line-height: 30px;
+  max-width: 650px;
+}
+.img-thumbnail {
+  padding: .25rem;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  background: none;
+}
+
+
+
+
+
+
+
+
+
+.container-fluid.main-container-header.top-bar-pre-login{
+  box-shadow: 0 5px 15px 0 rgba(46,61,73,0.12);
+}
+.container-fluid.main-container-header, .site-logo, .top-header {
+  padding: 10px;
+}
+.container-fluid.main-container-header {
+  height: 80px;
+  box-shadow: 0 5px 5px #e4e4df;
+  background-color: #fff;
+  position: relative;
+  z-index: 999999;
+}
+.container-fluid.login_popup_div {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 90px 0 90px 0;
+  height: 100%;
+}
+.create_popup_div{
+  background-color: #ffffff;
+  padding: 30px 0;
+  margin: 15px;
+  box-shadow: 2px 2px 3px 0 rgba(117, 124, 129,0.12);
+  border: 1px solid #dbe2e8;
+  border-radius: 5px;
+}
+h3.login_heading{
+  color: #101010;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.form-group.login_fields{
+  margin: 30px 0 0 0;
+}
+input.form-control.login_form_fields{
+  border: 1px solid #d5d6d6;
+  border-radius: 0;
+  padding: 5px 10px;
+  height: 40px;
+}
+.form-group.login_submit_fields{
+  margin-top:40px;
+}
+.generate_fields{
+  margin: 0 auto;   
+}
+.create_login_form{
+  padding:0 10px ;
+}
+.active{
+  background-color: white;
+  color: black;
+}
+@media screen and (min-width: 768px) and (orientation: landscape)
+{
+  .navbar-nav .active {
+    color: #de6834;
+    border-bottom: 4px solid #de6834;
+  }
+  .create_popup_div {
+    display: table;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .mynav_grid{
+    display: grid;
+    grid-template-columns: 0fr 7fr 3fr;
+  }
+  .nav_ul_grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 1fr 2fr;
+  }
+  
+.header_img::after {
+  content: "";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+  .header_img::after {
+    background-image: url("./images/section1banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 171%;
+    position: absolute;
+    top: 1%;
+}
+
+  #statsSection>div{
+    padding-top:4.2rem !important ;
+    padding-bottom:4rem !important ;
+  }
+  #header-section{
+    height:740px;
+  }
+  .banner-section{
+    text-align: left;
+    position: relative;
+    top: 100px;
+}
+}
