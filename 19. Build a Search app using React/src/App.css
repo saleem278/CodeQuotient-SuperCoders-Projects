@@ -1,0 +1,21 @@
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #4e5766;
+  box-shadow: 1px 0.5px #888888;
+  font-size: 18px;
+}
+tr:nth-child(even)
+{
+  background-color: #CACACE;
+}
+thead,tr:nth-child(odd){
+  background-color: #f4f4f4;
+}
+body{
+  background-color: #7b72fc;
+}
