@@ -1,4 +1,7 @@
 # CodeQuotient-SuperCoders-Projects
+
+# Part 1: Frontend: HTML, CSS and BootStrap
+
 [1. Build a Resume WebPage](https://resume1-hnip75jpkgaue4so.web.codequotient.com)
 
 [2. College Admission Form](https://collegeadmissionform-hnip7c5okgd181id.web.codequotient.com) 
@@ -17,6 +20,9 @@
 
 [9. Build a responsive webpage with the help of Bootstrap (Geeky Project)](https://geekyproject-3p34g82eokh3fa3pf.web.codequotient.com)
 
+
+# Part 2: Dynamic Frontend: HTML,CSS, JS and DOM
+
 [10. Chess Board](https://chessboard-hnip7ktike99amy6.web.codequotient.com)
 
 [11. Calculate Bill](https://calculatebill-3p34g844jekhdey4ca-3p34g844jekhdey4dx.web.codequotient.com)
@@ -28,6 +34,8 @@
 [14. Compile Coding Question with API](https://14compilecodewithapi-3p34g884phkhr1x14g.web.codequotient.com)
 
 [15. Discussion App with DOM](https://discussionapp-3p34g884phkhrpkxn6.web.codequotient.com)
+
+# Part 2: Backend with Node, filesystem, Express, MongoDb
 
 [16. Todo NodeServer using FileSystem](https://mytodonode-3p34g8fuq8kiiux10x.codequotient.in)
 
