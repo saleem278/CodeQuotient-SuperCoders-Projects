@@ -29,7 +29,5 @@
 
 [15. Discussion App with DOM](https://discussionapp-3p34g884phkhrpkxn6.web.codequotient.com)
 
-[16. Todo NodeServer without Express](https://mytodo-3p34g8fusgki9m2wdc.web.codequotient.com)
-
-[17. Todo NodeServer with Express](https://mytodonode-3p34g8fuq8kiiux10x.codequotient.in)
+[16. Todo NodeServer using FileSystem](https://mytodonode-3p34g8fuq8kiiux10x.codequotient.in)
 
