@@ -18,5 +18,5 @@ Build a To Do app and fulfill the below User stories.
 
 
 Output:
-**```[https://mytodonode-3p34g8fuq8kiiux10x.codequotient.in]```**
+**```https://mytodonode-3p34g8fuq8kiiux10x.codequotient.in```**
 
