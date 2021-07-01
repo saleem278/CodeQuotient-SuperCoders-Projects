@@ -39,7 +39,7 @@
 
 [16. Todo NodeServer using FileSystem](https://mytodonode-3p34g8fuq8kiiux10x.codequotient.in)
 
-[17. Ecommerce]under Construction
+**17. Ecommerce under Construction**
 # Part 4: React.js
 
 [18. Build a SPA in React](https://reactspa-3p34g8x1b8kjw4u104.codequotient.in)
